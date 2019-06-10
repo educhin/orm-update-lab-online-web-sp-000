@@ -45,6 +45,6 @@ class Student
   end
 
   def self.new_from_db(array)
-    Student.new(array[0], array[1], array[2])
+    Student.new(array[1], array[2], array[0])
   end
 end
